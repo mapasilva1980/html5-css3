@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem do Astronauta no Espaço</title>
+    <style>
+#container {
+  height: 97vh;
+  background-color: black;
+  background-image: url(imagens/espaco-rdz.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#conteudo {
+  height: 50vh;
+  width: 50vh;
+  background-image: url(imagens/astronauta-rdz.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+    </style>
+</head>
+<body id="container">
+  <div id="conteudo">
+  </div>
+</body>
+</html>
