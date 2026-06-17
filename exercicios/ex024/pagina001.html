@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas Responsivas</title>
+    <title>Site de Teste</title>
     <style>
-        body {
+       body {
             font-family: Arial, Helvetica, sans-serif;
             background-color: lightgray;
         }
@@ -17,7 +17,7 @@
         caption {
             font-size: 1.2em;
             font-weight: bolder;
-            padding: 10px;
+            padding: 20px;
         }
 
         th, td {
@@ -29,17 +29,13 @@
             background-color: rgb(228, 228, 228);
         }
 
-        div#container {
-            width: 50vw;
-            overflow-x: auto;
+        tr:nth-child(odd) {
+            background-color: white;
         }
     </style>
 </head>
 <body>
-    <h1>Tabelas em telas pequenas</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias architecto natus magni, eligendi adipisci, id repellat autem voluptatem enim deserunt rerum asperiores, recusandae nesciunt esse totam dignissimos perspiciatis. Dicta, earum!</p>
-    <div id="container">
-        <table>
+    <table>
             <caption>Tabelas Responsivas</caption>
             <thead>
                 <tr>
@@ -166,6 +162,5 @@
                 </tr>
             </tbody>
         </table>
-    </div>
 </body>
 </html>
